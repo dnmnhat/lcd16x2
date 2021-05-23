@@ -1,10 +1,13 @@
 import I2C_LCD_driver
-from time import 
+import time 
+
+#Init driver
+lcd = I2C_LCD_driver.lcd()
 
 while True:
     localtime = time.localtime()
-    result = time.strftime("%I:%M:%S %p", localtime)
-    mylcd.lcd_display_string(result, 1)
+    hora = time.strftime("%I:%M:%S %p", localtime)
+    lcd.lcd_display_string(hora, 1)
     time.sleep(1)
     mylcd.lcd_clear()
 
