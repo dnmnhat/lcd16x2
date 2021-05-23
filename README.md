@@ -1,4 +1,6 @@
 # by Flavio Lages
+fonts https://ozzmaker.com/i2c/, https://docs.armbian.com/User-Guide_Armbian-Config/,  https://www.circuitbasics.com/raspberry-pi-i2c-lcd-set-up-and-programming/
+
 LCD 16x2 i2c - Orangepi Lite
 
 # Comands mode superuser (root)
