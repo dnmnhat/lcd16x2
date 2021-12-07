@@ -37,10 +37,10 @@ or
 sudo apt install i2c-tools libi2c-dev python3-smbus
 
 Install :
-[cd home/
+cd home/
 git clone https://github.com/dnmnhat/lcd16x2.git
 cd lcd16x2/
-python3 time_date.py]
+python3 time_date.py
 
 Crontab
 sudo crontab -e
