@@ -10,6 +10,6 @@ IP = IP.decode('ascii')
 
 
 while True:
- mylcd.lcd_display_string(%time.strftime("%b %d %H:%M:%S"), 2)
+ mylcd.lcd_display_string( %time.strftime("%b %d %H:%M:%S"), 2)
  
  mylcd.lcd_display_string("IP: %s" %str(IP), 1)
