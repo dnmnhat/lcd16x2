@@ -42,7 +42,7 @@ cd /home
 
 git clone https://github.com/dnmnhat/lcd16x2.git
 
-cd /lcd16x2
+cd lcd16x2/
 
 python3 time_date.py
 
