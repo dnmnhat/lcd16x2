@@ -50,7 +50,7 @@ Crontab
 
 sudo crontab -e
 
-@reboot sleep 10 && /home/lcd16x2/time_date.py
+@reboot sleep 10 && python3 /home/lcd16x2/time_date.py
 
 
 And Reboot.
