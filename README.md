@@ -54,3 +54,6 @@ sudo crontab -e
 
 
 And Reboot.
+
+df -h /synology-nas/record
+ sudo mount 192.168.0.50:/volume1/Record /synology-nas/record 
