@@ -44,13 +44,13 @@ git clone https://github.com/dnmnhat/lcd16x2.git
 
 cd lcd16x2/
 
-python3 time_date.py
+python3 time_date_ip.py
 
 Crontab
 
 sudo crontab -e
 
-@reboot sleep 10 && python3 /home/lcd16x2/time_date.py
+@reboot sleep 10 && python3 /home/lcd16x2/time_date_ip.py
 
 
 And Reboot.
