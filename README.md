@@ -66,11 +66,18 @@ sudo crontab -e
 '''
 '''
 @reboot sleep 10 && python3 /home/lcd16x2/time_date_ip.py
-@reboot sleep 20 cd /home/minisatip && sudo ./minisatip -f -Z :0 -M 0 &
+
+
+
+@reboot sleep 0 cd /home/minisatip && sudo ./minisatip -f -Z :0 -M 0 &
+
+
 '''
 '''
 sudo wget https://raw.githubusercontent.com/dnmnhat/lcd16x2/main/minisatip.sh
+
 sudo chmod +x minisatip.sh && sudo ./minisatip.sh
+
 '''
 
 And Reboot.
