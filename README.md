@@ -51,6 +51,7 @@ Crontab
 sudo crontab -e
 
 @reboot sleep 10 && python3 /home/lcd16x2/time_date_ip.py
+@reboot sleep 20 cd /home/minisatip && sudo ./minisatip -f -Z :0 -M 0 &
 
 
 And Reboot.
