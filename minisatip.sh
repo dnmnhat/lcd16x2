@@ -9,4 +9,4 @@ cd minisatip/
 # build minisatip
 make
 # start minisat with parameter
-sudo ./minisatip -f -Z :0 -M 0
+sudo ./minisatip -k
